@@ -43,7 +43,8 @@ def validate_expression(expression):
     if last_token_was_operator:
         return False
 
-    return True# Function to evaluate the expression based on tokens
+    return True# Function to evaluate the expression based on tokens 
+
 def evaluate_expression(variables, combination, expression):
     # Create a dictionary of variable values
     context = dict(zip(variables, combination))
